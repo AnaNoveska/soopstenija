@@ -1,0 +1,33 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    background-color: #efefef;
+}
+.naslov{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid orange;
+    min-width: 10px;
+}
+.sodrzina{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    height: 900px;
+    width: 900px;
+}
+li{
+    font-size: 18px;
+    list-style-type: circle;
+}
+.h3{
+    border-bottom: 2px solid orange;
+    max-width: max-content;
+}
+img{
+    height: 200px;
+    width: 230px;
+    position: absolute;
+    top: 120px;
+    right: 90px;
+}
